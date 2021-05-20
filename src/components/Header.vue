@@ -1,6 +1,6 @@
 <template>
   
-  <header class="container">
+  <header class="container-80">
 
     <div class="logo">
       <img src="../assets/img/dc-logo.png" alt="DC Logo">
@@ -83,6 +83,7 @@ export default {
 <style lang="scss" scoped>
 
 @import '@/assets/style/utilities';
+@import '@/assets/style/vars.scss';
 
 header{
   display: flex;
@@ -101,8 +102,8 @@ header{
       padding-bottom: 52px;
       &:hover,
       &.active{
-        border-bottom: 3px solid #0c7cec;
-        color: #0c7cec;
+        border-bottom: 3px solid $brand-color;
+        color: $brand-color;
       }
 
     }

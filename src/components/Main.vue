@@ -2,7 +2,7 @@
 
   <main>
 
-    <div class="container">
+    <div class="container-80">
       <h1> --> Content goes here &lt;-- </h1>
     </div>
     
