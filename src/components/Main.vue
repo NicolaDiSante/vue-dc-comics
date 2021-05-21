@@ -26,7 +26,7 @@ export default {
 main{
   display: flex;
   align-items: center;
-  height: 130px;
+  height: 100px;
   width: 100%;
   background-color: black;
   h1{

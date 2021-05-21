@@ -86,6 +86,7 @@ export default {
 @import '@/assets/style/vars.scss';
 
 header{
+  height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -99,7 +100,7 @@ header{
       color: black;
       font-size: 13px;
       font-weight: 700;
-      padding-bottom: 52px;
+      padding-bottom: 54px;
       &:hover,
       &.active{
         border-bottom: 3px solid $brand-color;

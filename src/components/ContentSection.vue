@@ -22,7 +22,7 @@ export default {
 @import '@/assets/style/vars.scss';
 
 section{
-  height: 130px;
+  height: 100px;
   width: 100%;
   background-color: $brand-color;
 }
