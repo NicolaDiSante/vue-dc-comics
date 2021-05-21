@@ -52,6 +52,10 @@ footer{
     align-items: center;
     li{
       margin-left: 20px;
+      &:first-child{
+        font-size: 18px;
+        font-weight: 500;
+      }
     }
   }
 }
