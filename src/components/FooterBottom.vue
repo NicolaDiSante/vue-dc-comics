@@ -30,6 +30,7 @@ export default {
 <style lang="scss" scoped>
 
 @import '@/assets/style/utilities.scss';
+@import '@/assets/style/vars.scss';
 
 footer{
   height: 100px;
@@ -42,7 +43,7 @@ footer{
   button{
     padding: 20px;
     background-color: rgb(46, 46, 46);
-    border: 2px solid blue;
+    border: 2px solid $brand-color;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -55,6 +56,9 @@ footer{
       &:first-child{
         font-size: 18px;
         font-weight: 500;
+        a:first-child{
+          color: $brand-color
+        }
       }
     }
   }
