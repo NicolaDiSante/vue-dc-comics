@@ -43,10 +43,11 @@ footer{
   button{
     padding: 20px;
     background-color: rgb(46, 46, 46);
-    border: 2px solid $brand-color;
+    border: 3px solid $brand-color;
     color: white;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
   }
   .right-col ul{
     display: flex;

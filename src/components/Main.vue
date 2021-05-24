@@ -1,9 +1,13 @@
 <template>
 
   <main>
-
+    
     <div class="container-80">
-      <h1> --> Content goes here &lt;-- </h1>
+      <Cards 
+        v-for="(card, index) in cards"
+        :key="index"
+        :card="card"
+      />
     </div>
     
 
@@ -13,8 +17,23 @@
 </template>
 
 <script>
+
+import cards from "@/assets/data/dc-comics.js"
+import Cards from "@/components/Cards"
+
 export default {
-  name: 'Main'
+  name: 'Main',
+  components: {
+    Cards
+  },
+  data(){
+    return {
+      cards
+    }
+  },
+  mounted(){
+    
+  }
 
 }
 </script>
